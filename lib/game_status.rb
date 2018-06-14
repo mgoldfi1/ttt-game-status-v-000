@@ -45,7 +45,8 @@ def over?(board)
 end
 
 def winner(board)
-  if won?(board)
-    board[index_1]
+if won?(board)[0] == "X"
+  "X"
+else "O"
   end
 end
