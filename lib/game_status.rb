@@ -31,7 +31,7 @@ board.all? do |i|
 end
 
 def draw?(board)
-  if won?(board) == false && full?(board) == true
+  if won?(board) == false && full?(board)
     true
   end
 end
