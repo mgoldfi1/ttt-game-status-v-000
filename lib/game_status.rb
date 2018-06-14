@@ -26,5 +26,6 @@ end
 
 def full?(board)
   board.find do |i|
+    i == " " || i == ""
   end
 end
