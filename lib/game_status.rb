@@ -25,7 +25,7 @@ board[index_1] == board[index_2] && board[index_3] == board[index_1] && position
 end
 
 def full?(board)
-  board.find do |i|
-    i == " " || i == ""
-  end
+if board.include?(" ") || board.include?("")
+  false
+    end
 end
