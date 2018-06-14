@@ -16,18 +16,7 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  top_row_win = [0,1,2]
-  win_index_1 = top_row_win[0]
-  win_index_2 = top_row_win[1]
-  win_index_3 = top_row_win[2]
-  position_1 = board[win_index_1]
-  position_2 = board[win_index_2]
-  position_3 = board[win_index_3]
-  if position_1 == "X" && position_2 == "X"  && position_3 == "X"
-    return top_row
-  end
-  if WIN_COMBINATIONS.none?
-    false
+
   end
 
 
