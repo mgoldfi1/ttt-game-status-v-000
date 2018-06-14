@@ -46,5 +46,12 @@ end
 
 def winner(board)
 winner = won?(board)
-winner[0]
-  end
+if winner[0] == "X"
+  "X"
+elsif winner[0] == "O"
+  "O"
+else
+  false
+end
+end
+
