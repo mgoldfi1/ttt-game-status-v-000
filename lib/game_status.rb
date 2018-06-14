@@ -21,6 +21,8 @@ def won?(board)
 index_1 = win_combination[0]
 index_2 = win_combination[1]
 index_3 = win_combination[2]
+board[index_1] == board[index_2] && board[index_3]
+
 
 binding.pry
   end
