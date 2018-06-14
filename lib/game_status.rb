@@ -18,6 +18,6 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   WIN_COMBINATIONS.find do |win_combination|
-binding.pry    
+binding.pry
   end
 end
