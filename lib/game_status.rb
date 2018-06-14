@@ -29,3 +29,9 @@ board.all? do |i|
   i == "X" || i == "O"
     end
 end
+
+def draw?(board)
+  if won?(board) == false && full?(board) == true
+    true
+  end
+end
