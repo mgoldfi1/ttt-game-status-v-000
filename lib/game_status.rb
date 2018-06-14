@@ -22,5 +22,11 @@ index_2 = win_combination[1]
 index_3 = win_combination[2]
 board[index_1] == board[index_2] && board[index_3] == board[index_1] && position_taken?(board, index_1)
   end
-
 end
+
+def full?(board)
+  board.find do |i|
+    i == " " || i == "" 
+    false
+  end
+  
