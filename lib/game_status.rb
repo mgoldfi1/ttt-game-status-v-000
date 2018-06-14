@@ -27,3 +27,4 @@ end
 def full?(board)
   board.find do |i|
   end
+end
