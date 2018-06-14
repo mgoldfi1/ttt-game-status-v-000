@@ -45,8 +45,12 @@ def over?(board)
 end
 
 def winner(board)
-if won?(board)[0] == "X"
+board_winner = won?(board)
+if board_winner[0] == "X"
   "X"
-else "O"
+elsif  board_winner[0] == "O"
+  "O"
+else
+  false
   end
 end
